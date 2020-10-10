@@ -59,24 +59,6 @@
 - [x] [附录:C++ 和 Java 的优良传统](docs/book/Appendix-The-Positive-Legacy-of-C-plus-plus-and-Java.md)
 - [ ] [附录:成为一名程序员](docs/book/Appendix-Becoming-a-Programmer.md)
 
-## INSTALL
-
-1. 首先安装[Jupyter Lab](https://jupyter.org/)
-2. 安装[Java Kernel](https://github.com/SpencerPark/IJava)  
-   注意： 打开文件后，在工具栏最右边选择 `Java`。 Mac 下按 `CMD + Enter` 可以运行 Code。  
-   Java SDK 需要 1.9 及以上。可以用[sdkman](sdkman.io)安装.
-3. 代码运行。
-
-   ```java
-   public class Hello {
-     public static void main(String [] args){
-       System.out.println("Hello, world!")
-     }
-   }
-
-   //调用静态方法main
-   Hello.main(new String [0]);
-   ```
 
 ## 一起交流
 
@@ -132,10 +114,6 @@
 如没问题的话，我会合并到主分支  
 如不熟悉 md 排版，可不必纠结，我会在合并 pr 时代为排版  
 如还有其它问题，欢迎发送 issue，谢谢~
-
-## 友情链接
-
-[Effective.Java.3rd.Edition 中文版](https://sjsdfg.github.io/effective-java-3rd-chinese/#/)
 
 ## 开源协议
 
